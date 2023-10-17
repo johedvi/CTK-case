@@ -1,0 +1,23 @@
+body {
+  background-color:rgb(255, 200, 129) !important;
+}
+
+.maintopic {
+  margin-top:25px;
+  margin-bottom:25px;
+}
+
+.maintopic last-child{
+  margin-bottom:none;
+}
+
+.linkStyle {
+  text-decoration: none;
+  color: #212529;
+}
+
+.authorLink {
+  font-weight: 600;
+  display: inline-block;
+  margin-bottom: 0;
+}

@@ -1,0 +1,62 @@
+h1 {
+  text-align: center;
+}
+
+#createForum {
+  width: fit-content;
+  margin: 48px auto;
+}
+
+.inputBlock {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+label {
+  margin: 0 8px;
+  font-weight: bold;
+}
+
+input {
+  background-color: #434343;
+  border-radius: 12px;
+  color: white; 
+  padding: 4px 8px;
+}
+
+.forums {
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.forumBlock {
+  margin: 8px 0;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+
+.forums a {
+  text-decoration: none;
+  color: rgb(55, 55, 55);
+}
+
+.forumTitle, .forumDescription {
+  display: inline-block;
+  width: 80%;
+}
+
+.forumAuthor, .icons {
+  float: right;
+  max-width: 20%;
+}
+
+.forumBlock h2, .forumBlock h5 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.icons {
+  max-width: 32px;
+}

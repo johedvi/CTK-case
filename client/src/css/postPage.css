@@ -1,0 +1,64 @@
+h1, h3 {
+  text-align: center;
+}
+
+.post {
+  min-width: 360px;
+  min-height: 96px;
+  margin: 0 auto;
+  max-width: 720px;
+  background-color: #fff5e9;
+}
+
+.postContent {
+  margin-top: 48px;
+  color: rgb(0, 0, 0);
+  padding: 8px 12px;
+}
+
+#createComment {
+  width: fit-content;
+  margin: 48px auto;
+}
+
+.inputBlock {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+label {
+  margin: 0 8px;
+  font-weight: bold;
+}
+
+input {
+  background-color: #434343;
+  border-radius: 12px;
+  color: white; 
+  padding: 4px 8px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.comment {
+  list-style: none;
+  background-color: white;
+  border: #434343 1px solid;
+  padding: 4px 8px;
+  margin: 12px 0;
+}
+
+.delete {
+  max-width: 20%;
+  float: right;
+}
+
+
+.rating {
+  max-width: 20%;
+ 
+  float: right;
+}
+

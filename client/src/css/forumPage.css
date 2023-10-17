@@ -1,0 +1,28 @@
+h2, h3 {
+  text-align: center;
+}
+
+#createPost {
+  width: fit-content;
+  margin: 48px auto;
+}
+
+.inputBlock {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+label {
+  margin: 0 8px;
+  font-weight: bold;
+}
+
+input {
+  background-color: #434343;
+  border-radius: 12px;
+  color: white; 
+  padding: 4px 8px;
+}
+
+
+

@@ -1,0 +1,63 @@
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.navbar {
+  height: 50px;
+}
+
+.navbar * {
+  height: 100%;
+  object-fit: contain;
+}
+
+.dropdown:hover .dropdown-menu {
+  height: fit-content;
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  #navbarSupportedContent {
+    display: block;
+    background-color: #f8f9fa;
+    position: absolute;
+    height: fit-content;
+    top: 50px;
+    box-shadow: 5px 5px 10px rgb(99, 99, 99);
+    /*overflow: hidden;*/
+    z-index: 100;
+
+    transition: all 0.33s;
+    opacity: 0;
+    left: -400px;
+  }
+  #navbarSupportedContent.open {
+    left: 0;
+    opacity: 1;
+  }
+
+  #navbarSupportedContent > ul {
+    margin-left: 8px;
+  }
+
+  #logo {
+    width: 25px;
+    height: 25px;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  [role=search] {
+    margin: 8px;
+  }
+
+  .dropdown-menu {
+    position: absolute !important;
+    width: 75%;
+  }
+
+  .btn {
+    margin-bottom: 8px;
+  }
+}

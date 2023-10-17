@@ -1,0 +1,10 @@
+.item {
+  max-width: 256px;
+  margin: 64px;
+  display: inline-block;
+}
+
+.tag {
+  text-align: center;
+  margin-bottom: 0;
+}
